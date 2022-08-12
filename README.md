@@ -1,6 +1,10 @@
 # encapsulamiento-java
-// clae donde se realiza unos atributos como edad y nombre con un modificador de acceso private lo que hace que solo pueda ser accedito desde la clase 
-donde esta creado el atributo.
-pero estos atributos pueden ser accedidos desde otra clase creando primero un  objeto de la clase donde estan los atributos 
-GettersSetters objeto1 = new GettersSetters();  con esta instruccion se crea el objeto que trae consigo los atributos y y metodos que tenga la clase
- para poder acceder a los atributos privados utilizamos los metodos get y set de dicha clase llamandolos con el objeto 
+// clase GettersSetters
+se crean atributos con modificadores de acceso privados que son nombre y edad y se crean sus metodos get y set para obtener y para mostrar que son metodos
+de acceso y basicamente a esto se le llama encapsulamiento que es para encapsular un atributo o clase para que el acceso a esta sea dependiendo el modificador 
+lo mas restrictivo para las otras clases y paquetes.
+
+// clase2Main
+metodo main donde se cre un objeto1 que este objeto trae todos los metodos y atributos pero al ser atributos privados estos no los trae 
+al instanciar o crear el objeto podemos llamar los metodos get y set para poder gtener acceso a estos atributos que eran privados 
+y por ultimo se muestra  por pantalla los datos ingresados en el set y get 
